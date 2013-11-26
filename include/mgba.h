@@ -1,11 +1,11 @@
 /*
-** mgba.h for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba
+** mgba.h for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba/include
 ** 
 ** Made by Louis Poirier
 ** Login   <poirie_l@epitech.net>
 ** 
-** Started on  Sat Nov 23 22:26:47 2013 Louis Poirier
-** Last update Mon Nov 25 23:57:43 2013 Louis Poirier
+** Started on  Tue Nov 26 08:27:10 2013 Louis Poirier
+** Last update Tue Nov 26 08:27:57 2013 Louis Poirier
 */
 
 #ifndef			MGBA_H_
@@ -37,8 +37,8 @@ typedef struct		s_dot
 
 typedef struct		s_dot3d
 {
-  s16			x;
-  s16			y;
+  u16			x;
+  u16			y;
   s16			z;
 }			t_dot3d;
 
@@ -53,4 +53,4 @@ u8			gba_key_hook(t_gba *gba, u8 (*funct_ptr)(u16, void*), void *param);
 u8			gba_swap_dot(t_dot *a, t_dot *b);
 u8			gba_swap(u8 *a, u8 *b);
 
-#endif		/* !MGBA_H_ */
+#endif			/* !MGBA_H_ */

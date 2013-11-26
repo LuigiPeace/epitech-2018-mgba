@@ -5,7 +5,7 @@
 ** Login   <poirie_l@epitech.net>
 ** 
 ** Started on  Sat Nov 23 23:23:15 2013 Louis Poirier
-** Last update Mon Nov 25 22:38:55 2013 Louis Poirier
+** Last update Mon Nov 25 19:09:06 2013 Louis Poirier
 */
 
 #include	"mgba.h"

@@ -1,11 +1,11 @@
 /*
-** gba_key_hook.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba/sources/sys
+** gba_key_hook.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba/source
 ** 
 ** Made by Louis Poirier
 ** Login   <poirie_l@epitech.net>
 ** 
-** Started on  Sat Nov 23 23:12:27 2013 Louis Poirier
-** Last update Mon Nov 25 22:35:57 2013 Louis Poirier
+** Started on  Tue Nov 26 08:29:42 2013 Louis Poirier
+** Last update Tue Nov 26 08:29:53 2013 Louis Poirier
 */
 
 #include	"mgba.h"

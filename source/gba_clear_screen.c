@@ -1,11 +1,11 @@
 /*
-** gba_clear_screen.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba
+** gba_clear_screen.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba/source
 ** 
 ** Made by Louis Poirier
 ** Login   <poirie_l@epitech.net>
 ** 
-** Started on  Sat Nov 23 22:27:59 2013 Louis Poirier
-** Last update Mon Nov 25 22:37:23 2013 Louis Poirier
+** Started on  Tue Nov 26 08:28:34 2013 Louis Poirier
+** Last update Tue Nov 26 08:28:37 2013 Louis Poirier
 */
 
 #include	"mgba.h"

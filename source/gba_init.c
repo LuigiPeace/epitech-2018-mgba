@@ -1,11 +1,11 @@
 /*
-** gba_init.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba/sources/sys
+** gba_init.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba/source
 ** 
 ** Made by Louis Poirier
 ** Login   <poirie_l@epitech.net>
 ** 
-** Started on  Sat Nov 23 22:50:05 2013 Louis Poirier
-** Last update Tue Nov 26 00:02:05 2013 Louis Poirier
+** Started on  Tue Nov 26 08:29:13 2013 Louis Poirier
+** Last update Tue Nov 26 08:29:25 2013 Louis Poirier
 */
 
 #include	"mgba.h"

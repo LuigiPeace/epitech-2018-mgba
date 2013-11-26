@@ -1,11 +1,11 @@
 /*
-** gba_pixel_put.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba
+** gba_pixel_put.c for libmgba in /home/esl/Documents/Perso/C/GameBoyDev/libmgba/source
 ** 
 ** Made by Louis Poirier
 ** Login   <poirie_l@epitech.net>
 ** 
-** Started on  Sat Nov 23 22:33:33 2013 Louis Poirier
-** Last update Mon Nov 25 22:36:36 2013 Louis Poirier
+** Started on  Tue Nov 26 08:30:25 2013 Louis Poirier
+** Last update Tue Nov 26 08:30:35 2013 Louis Poirier
 */
 
 #include	"mgba.h"
