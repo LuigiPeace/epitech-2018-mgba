@@ -5,7 +5,7 @@
 ## Login   <poirie_l@epitech.net>
 ## 
 ## Started on  Tue Nov 26 09:17:56 2013 Louis Poirier
-## Last update Tue Nov 26 09:57:26 2013 Louis Poirier
+## Last update Thu Dec 26 17:41:50 2013 Louis Poirier
 ##
 
 include		$(DEVKITARM)/gba_rules
@@ -13,11 +13,16 @@ include		$(DEVKITARM)/gba_rules
 NAME		= libmgba
 
 SRCS		= gba_clear_screen.c	\
+		  gba_pixel_put.c	\
 		  gba_draw_line.c	\
+		  img_pixel_put.c	\
+		  img_draw_line.c	\
+		  gba_new_image.c	\
+		  gba_destroy_image.c	\
+		  gba_image_on_screen.c	\
 		  gba_init.c		\
 		  gba_key_hook.c	\
 		  gba_loop.c		\
-		  gba_pixel_put.c	\
 		  gba_swap.c		\
 		  gba_swap_dot.c
 
