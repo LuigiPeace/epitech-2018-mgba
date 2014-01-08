@@ -5,7 +5,7 @@
 ** Login   <poirie_l@epitech.net>
 ** 
 ** Started on  Tue Nov 26 08:28:34 2013 Louis Poirier
-** Last update Tue Nov 26 08:28:37 2013 Louis Poirier
+** Last update Mon Jan  6 21:59:55 2014 Louis Poirier
 */
 
 #include	"mgba.h"
@@ -23,7 +23,7 @@ u8		gba_clear_screen(t_gba *gba, const u16 color)
       x = 0;
       while (x < SCREEN_WIDTH)
 	{
-	  gba->screen[y*SCREEN_WIDTH+x] = color;
+	  gba->screen[y * SCREEN_WIDTH + x] = color;
 	  x++;
 	}
       y++;

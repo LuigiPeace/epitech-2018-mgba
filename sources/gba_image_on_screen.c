@@ -5,15 +5,15 @@
 ** Login   <poirie_l@epitech.net>
 ** 
 ** Started on  Thu Dec 26 17:32:18 2013 Louis Poirier
-** Last update Thu Dec 26 17:45:35 2013 Louis Poirier
+** Last update Wed Jan  8 17:05:33 2014 Louis Poirier
 */
 
 #include	"mgba.h"
 
 u8		gba_image_on_screen(t_gba *gba, const t_img *img, const u8 x, const u8 y)
 {
-  u8		i;
-  u8		j;
+  u16		i;
+  u16		j;
 
   if (gba == NULL || img == NULL)
     return (1);
@@ -21,7 +21,7 @@ u8		gba_image_on_screen(t_gba *gba, const t_img *img, const u8 x, const u8 y)
     return (2);
   if (x >= SCREEN_WIDTH || y >= SCREEN_HEIGHT)
     return (3);
-  i = x * y;
+  i = x * SCREEN_WIDTH + y;
   j = 0;
   while (j < img->width * img->height && i < SCREEN_WIDTH * SCREEN_HEIGHT)
     {

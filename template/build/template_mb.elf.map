@@ -1,0 +1,726 @@
+Archive member included because of file (symbol)
+
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_clear_screen.o)
+                              main.o (gba_clear_screen)
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_pixel_put.o)
+                              key.o (img_pixel_put)
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_new_image.o)
+                              engine.o (gba_new_image)
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_image_on_screen.o)
+                              key.o (gba_image_on_screen)
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_init.o)
+                              main.o (gba_init)
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_key_hook.o)
+                              main.o (gba_key_hook)
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_loop.o)
+                              main.o (gba_loop)
+/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_clear.o)
+                              key.o (img_clear)
+/home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+                              /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_loop.o) (scanKeys)
+/home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+                              /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_init.o) (irqInit)
+/home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+                              /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o) (IntrMain)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+                              /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o (__libc_init_array)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o)
+                              /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_new_image.o) (malloc)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o)
+                              /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o) (_malloc_r)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mlock.o)
+                              /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o) (__malloc_lock)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-freer.o)
+                              /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o) (_free_r)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+                              /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o) (_impure_ptr)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(sbrk.o)
+                              /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o) (_sbrk_r)
+/home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+                              /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(sbrk.o) (fake_heap_start)
+
+Allocating common symbols
+Common symbol       size              file
+
+IntrTable           0x78              /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000002000000
+iwram            0x0000000003000000 0x0000000000008000
+ewram            0x0000000002000000 0x0000000000040000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000002000000                __text_start = ORIGIN (ewram)
+                0x0000000002040000                __eheap_end = (ORIGIN (ewram) + 0x40000)
+                0x0000000003000000                __iwram_start = ORIGIN (iwram)
+                0x0000000003008000                __iwram_top = (ORIGIN (iwram) + 0x8000)
+                0x0000000003007fa0                __sp_irq = (__iwram_top - 0x60)
+                0x0000000003007f00                __sp_usr = (__sp_irq - 0xa0)
+                0x0000000003007ff8                __irq_flags = 0x3007ff8
+                0x0000000002000000                . = __text_start
+
+.init           0x0000000002000000      0x21c
+ *(.init)
+ .init          0x0000000002000000      0x210 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+                0x0000000002000000                _start
+                0x00000000020000c4                __boot_method
+                0x00000000020000c5                __slave_number
+                0x00000000020000e0                start_vector
+ .init          0x0000000002000210        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crti.o
+                0x0000000002000210                _init
+ .init          0x0000000002000214        0x8 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtn.o
+                0x000000000200021c                . = ALIGN (0x4)
+
+.plt            0x000000000200021c        0x0
+ *(.plt)
+                0x000000000200021c                . = ALIGN (0x4)
+
+.text           0x000000000200021c     0x1228
+ *(EXCLUDE_FILE(*.iwram*) .text)
+ .text          0x000000000200021c        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .text          0x000000000200021c        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crti.o
+ .text          0x000000000200021c       0xd0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+ .text          0x00000000020002ec       0x68 key.o
+                0x00000000020002ec                key
+ .text          0x0000000002000354        0x0 main.o
+ .text          0x0000000002000354       0x3c engine.o
+                0x0000000002000354                engine_init
+ .text          0x0000000002000390       0x90 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_clear_screen.o)
+                0x0000000002000390                gba_clear_screen
+ .text          0x0000000002000420       0x70 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_pixel_put.o)
+                0x0000000002000420                img_pixel_put
+ .text          0x0000000002000490       0x7c /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_new_image.o)
+                0x0000000002000490                gba_new_image
+ .text          0x000000000200050c       0xe8 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_image_on_screen.o)
+                0x000000000200050c                gba_image_on_screen
+ .text          0x00000000020005f4       0x7c /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_init.o)
+                0x0000000002000608                gba_init
+ .text          0x0000000002000670       0x30 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_key_hook.o)
+                0x0000000002000670                gba_key_hook
+ .text          0x00000000020006a0       0x74 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_loop.o)
+                0x00000000020006a4                gba_loop
+ .text          0x0000000002000714       0x94 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_clear.o)
+                0x0000000002000714                img_clear
+ .text          0x00000000020007a8      0x140 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+                0x00000000020007a8                setRepeat
+                0x00000000020007bc                scanKeys
+                0x0000000002000890                keysDownRepeat
+                0x00000000020008a8                keysDown
+                0x00000000020008c0                keysUp
+                0x00000000020008d8                keysHeld
+ .text          0x00000000020008e8      0x2b8 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+                0x00000000020008e8                dummy
+                0x00000000020008ec                InitInterrupt
+                0x0000000002000948                irqInit
+                0x00000000020009a4                SetInterrupt
+                0x00000000020009e8                irqSet
+                0x0000000002000a2c                irqEnable
+                0x0000000002000a8c                irqDisable
+                0x0000000002000ae8                EnableInterrupt
+                0x0000000002000b44                DisableInterrupt
+ .text          0x0000000002000ba0        0x0 /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+ .text          0x0000000002000ba0       0x54 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+                0x0000000002000ba0                __libc_init_array
+ .text          0x0000000002000bf4       0x30 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o)
+                0x0000000002000bf4                malloc
+                0x0000000002000c0c                free
+ .text          0x0000000002000c24      0x51c /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o)
+                0x0000000002000c24                _malloc_r
+ .text          0x0000000002001140        0x8 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mlock.o)
+                0x0000000002001140                __malloc_lock
+                0x0000000002001144                __malloc_unlock
+ .text          0x0000000002001148      0x238 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-freer.o)
+                0x0000000002001148                _malloc_trim_r
+                0x00000000020011ec                _free_r
+ .text          0x0000000002001380        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+ .text          0x0000000002001380       0x54 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(sbrk.o)
+                0x0000000002001380                _sbrk_r
+ .text          0x00000000020013d4        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .text          0x00000000020013d4        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+ .text          0x00000000020013d4        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtn.o
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text.startup  0x00000000020013d4       0x70 main.o
+                0x00000000020013d4                main
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+                0x0000000002001444                . = ALIGN (0x4)
+                0x0000000002001444                __text_end = .
+
+.v4_bx          0x0000000002001444        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000002001444        0x0
+ .iplt          0x0000000000000000        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+
+.fini           0x0000000002001444        0xc
+ *(.fini)
+ .fini          0x0000000002001444        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crti.o
+                0x0000000002001444                _fini
+ .fini          0x0000000002001448        0x8 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtn.o
+                0x0000000002001450                . = ALIGN (0x4)
+
+.rodata         0x0000000002001450        0x8
+ *(.rodata)
+ .rodata        0x0000000002001450        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+                0x0000000002001450                _global_impure_ptr
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0000000002001454        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+ *(.gnu.linkonce.r*)
+                0x0000000002001458                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000002001458                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000002001458                __exidx_end = .
+                0x0000000002001458                . = ALIGN (0x4)
+                0x0000000002001458                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x0000000002001458                PROVIDE (__preinit_array_end, .)
+                0x0000000002001458                PROVIDE (__init_array_start, .)
+
+.init_array     0x0000000002001458        0x4
+ *(.init_array)
+ .init_array    0x0000000002001458        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+                0x000000000200145c                PROVIDE (__init_array_end, .)
+                0x000000000200145c                PROVIDE (__fini_array_start, .)
+
+.fini_array     0x000000000200145c        0x4
+ *(.fini_array)
+ .fini_array    0x000000000200145c        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+                0x0000000002001460                PROVIDE (__fini_array_end, .)
+
+.ctors          0x0000000002001460        0x0
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0000000002001460                . = ALIGN (0x4)
+
+.dtors          0x0000000002001460        0x0
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0000000002001460                . = ALIGN (0x4)
+
+.jcr            0x0000000002001460        0x4
+ *(.jcr)
+ .jcr           0x0000000002001460        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+ .jcr           0x0000000002001460        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+
+.eh_frame       0x0000000002001464        0x4
+ *(.eh_frame)
+ .eh_frame      0x0000000002001464        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+ .eh_frame      0x0000000002001464        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+                0x0000000002001468                . = ALIGN (0x4)
+
+.gcc_except_table
+                0x0000000002001468        0x0
+ *(.gcc_except_table)
+                0x0000000002001468                . = ALIGN (0x4)
+                0x0000000002001468                __iwram_lma = .
+
+.iwram          0x0000000003000000       0xb8 load address 0x0000000002001468
+                0x0000000003000000                __iwram_start__ = ABSOLUTE (.)
+ *(.iwram)
+ .iwram         0x0000000003000000       0xb8 /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+                0x0000000003000000                IntrMain
+ *iwram.*(.text)
+                0x00000000030000b8                . = ALIGN (0x4)
+                0x00000000030000b8                __iwram_end__ = ABSOLUTE (.)
+                0x0000000002001520                __data_lma = (__iwram_lma + SIZEOF (.iwram))
+
+.rel.dyn        0x00000000030000b8        0x0 load address 0x0000000002001520
+ .rel.iplt      0x0000000000000000        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+
+.bss            0x00000000030000b8       0xe0
+                0x00000000030000b8                __bss_start__ = ABSOLUTE (.)
+ *(.dynbss)
+ *(.gnu.linkonce.b*)
+ *(.bss*)
+ .bss           0x00000000030000b8        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .bss           0x00000000030000b8        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crti.o
+ .bss           0x00000000030000b8       0x1c /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+ .bss           0x00000000030000d4        0x0 key.o
+ .bss           0x00000000030000d4        0x0 main.o
+ .bss           0x00000000030000d4        0x0 engine.o
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_clear_screen.o)
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_pixel_put.o)
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_new_image.o)
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_image_on_screen.o)
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_init.o)
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_key_hook.o)
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_loop.o)
+ .bss           0x00000000030000d4        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_clear.o)
+ .bss           0x00000000030000d4        0xa /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .bss           0x00000000030000de        0x0 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .bss           0x00000000030000de        0x0 /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+ .bss           0x00000000030000de        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .bss           0x00000000030000de        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o)
+ *fill*         0x00000000030000de        0x2 00
+ .bss           0x00000000030000e0       0x34 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o)
+                0x00000000030000e0                __malloc_top_pad
+                0x00000000030000e4                __malloc_current_mallinfo
+                0x000000000300010c                __malloc_max_sbrked_mem
+                0x0000000003000110                __malloc_max_total_mem
+ .bss           0x0000000003000114        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mlock.o)
+ .bss           0x0000000003000114        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-freer.o)
+ .bss           0x0000000003000114        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+ .bss           0x0000000003000114        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(sbrk.o)
+ .bss           0x0000000003000118        0x8 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+                0x0000000003000118                fake_heap_start
+                0x000000000300011c                fake_heap_end
+ .bss           0x0000000003000120        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+ .bss           0x0000000003000120        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtn.o
+ *(COMMON)
+ COMMON         0x0000000003000120       0x78 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+                0x0000000003000120                IntrTable
+                0x0000000003000198                . = ALIGN (0x4)
+                0x0000000003000198                __bss_end__ = ABSOLUTE (.)
+
+.data           0x0000000003000198      0x848 load address 0x0000000002001520
+                0x0000000003000198                __data_start__ = ABSOLUTE (.)
+ *(.data)
+ .data          0x0000000003000198        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .data          0x0000000003000198        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crti.o
+ .data          0x0000000003000198        0x4 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+                0x0000000003000198                __dso_handle
+ .data          0x000000000300019c        0x0 key.o
+ .data          0x000000000300019c        0x0 main.o
+ .data          0x000000000300019c        0x0 engine.o
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_clear_screen.o)
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_pixel_put.o)
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_new_image.o)
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_image_on_screen.o)
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_init.o)
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_key_hook.o)
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_loop.o)
+ .data          0x000000000300019c        0x0 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_clear.o)
+ .data          0x000000000300019c        0x3 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .data          0x000000000300019f        0x0 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .data          0x000000000300019f        0x0 /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+ .data          0x000000000300019f        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .data          0x000000000300019f        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o)
+ *fill*         0x000000000300019f        0x1 ff
+ .data          0x00000000030001a0      0x410 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o)
+                0x00000000030001a0                __malloc_av_
+                0x00000000030005a8                __malloc_sbrk_base
+                0x00000000030005ac                __malloc_trim_threshold
+ .data          0x00000000030005b0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mlock.o)
+ .data          0x00000000030005b0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-freer.o)
+ .data          0x00000000030005b0      0x430 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+                0x00000000030005b0                _impure_ptr
+ .data          0x00000000030009e0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(sbrk.o)
+ .data          0x00000000030009e0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .data          0x00000000030009e0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+ .data          0x00000000030009e0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtn.o
+ *(.data.*)
+ *(.gnu.linkonce.d*)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                __data_end__ = ABSOLUTE (.)
+                0x0000000002001d68                __iwram_overlay_lma = (__data_lma + SIZEOF (.data))
+                0x00000000030009e0                PROVIDE (edata, .)
+                0x00000000030009e0                __iwram_overlay_start = .
+
+.igot.plt       0x00000000030009e0        0x0 load address 0x0000000002001d68
+ .igot.plt      0x0000000000000000        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+
+.tm_clone_table
+                0x00000000030009e0        0x0 load address 0x0000000002001d68
+ .tm_clone_table
+                0x00000000030009e0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+ .tm_clone_table
+                0x00000000030009e0        0x0 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+
+.iwram0         0x00000000030009e0        0x0 load address 0x0000000002001d68
+ *(.iwram0)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_iwram0, LOADADDR (.iwram0))
+                0x0000000002001d68                PROVIDE (__load_stop_iwram0, (LOADADDR (.iwram0) + SIZEOF (.iwram0)))
+
+.iwram1         0x00000000030009e0        0x0
+ *(.iwram1)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram1, LOADADDR (.iwram1))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram1, (LOADADDR (.iwram1) + SIZEOF (.iwram1)))
+
+.iwram2         0x00000000030009e0        0x0
+ *(.iwram2)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram2, LOADADDR (.iwram2))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram2, (LOADADDR (.iwram2) + SIZEOF (.iwram2)))
+
+.iwram3         0x00000000030009e0        0x0
+ *(.iwram3)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram3, LOADADDR (.iwram3))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram3, (LOADADDR (.iwram3) + SIZEOF (.iwram3)))
+
+.iwram4         0x00000000030009e0        0x0
+ *(.iwram4)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram4, LOADADDR (.iwram4))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram4, (LOADADDR (.iwram4) + SIZEOF (.iwram4)))
+
+.iwram5         0x00000000030009e0        0x0
+ *(.iwram5)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram5, LOADADDR (.iwram5))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram5, (LOADADDR (.iwram5) + SIZEOF (.iwram5)))
+
+.iwram6         0x00000000030009e0        0x0
+ *(.iwram6)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram6, LOADADDR (.iwram6))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram6, (LOADADDR (.iwram6) + SIZEOF (.iwram6)))
+
+.iwram7         0x00000000030009e0        0x0
+ *(.iwram7)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram7, LOADADDR (.iwram7))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram7, (LOADADDR (.iwram7) + SIZEOF (.iwram7)))
+
+.iwram8         0x00000000030009e0        0x0
+ *(.iwram8)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram8, LOADADDR (.iwram8))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram8, (LOADADDR (.iwram8) + SIZEOF (.iwram8)))
+
+.iwram9         0x00000000030009e0        0x0
+ *(.iwram9)
+                0x00000000030009e0                . = ALIGN (0x4)
+                0x00000000030009e0                PROVIDE (__load_start_iwram9, LOADADDR (.iwram9))
+                0x00000000030009e0                PROVIDE (__load_stop_iwram9, (LOADADDR (.iwram9) + SIZEOF (.iwram9)))
+                0x0000000002001d68                __ewram_lma = ((((((((((LOADADDR (.iwram0) + SIZEOF (.iwram0)) + SIZEOF (.iwram1)) + SIZEOF (.iwram2)) + SIZEOF (.iwram3)) + SIZEOF (.iwram4)) + SIZEOF (.iwram5)) + SIZEOF (.iwram6)) + SIZEOF (.iwram7)) + SIZEOF (.iwram8)) + SIZEOF (.iwram9))
+                0x0000000002001d68                __iwram_overlay_end = __ewram_lma
+                0x0000000002001d68                __ewram_start = __ewram_lma
+
+.ewram          0x0000000002001d68        0x0
+ *(.ewram)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                __ewram_end = ABSOLUTE (.)
+                0x0000000002001d68                __ewram_overlay_lma = (__ewram_lma + SIZEOF (.ewram))
+
+.sbss           0x0000000002001d68        0x0
+                0x0000000002001d68                __sbss_start__ = ABSOLUTE (.)
+ *(.sbss)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                __sbss_end__ = ABSOLUTE (.)
+                0x0000000002001d68                __end__ = ABSOLUTE (.)
+                0x0000000002001d68                __eheap_start = ABSOLUTE (.)
+
+.ewram0         0x0000000002001d68        0x0
+ *(.ewram0)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram0, LOADADDR (.ewram0))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram0, (LOADADDR (.ewram0) + SIZEOF (.ewram0)))
+
+.ewram1         0x0000000002001d68        0x0
+ *(.ewram1)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram1, LOADADDR (.ewram1))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram1, (LOADADDR (.ewram1) + SIZEOF (.ewram1)))
+
+.ewram2         0x0000000002001d68        0x0
+ *(.ewram2)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram2, LOADADDR (.ewram2))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram2, (LOADADDR (.ewram2) + SIZEOF (.ewram2)))
+
+.ewram3         0x0000000002001d68        0x0
+ *(.ewram3)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram3, LOADADDR (.ewram3))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram3, (LOADADDR (.ewram3) + SIZEOF (.ewram3)))
+
+.ewram4         0x0000000002001d68        0x0
+ *(.ewram4)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram4, LOADADDR (.ewram4))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram4, (LOADADDR (.ewram4) + SIZEOF (.ewram4)))
+
+.ewram5         0x0000000002001d68        0x0
+ *(.ewram5)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram5, LOADADDR (.ewram5))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram5, (LOADADDR (.ewram5) + SIZEOF (.ewram5)))
+
+.ewram6         0x0000000002001d68        0x0
+ *(.ewram6)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram6, LOADADDR (.ewram6))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram6, (LOADADDR (.ewram6) + SIZEOF (.ewram6)))
+
+.ewram7         0x0000000002001d68        0x0
+ *(.ewram7)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram7, LOADADDR (.ewram7))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram7, (LOADADDR (.ewram7) + SIZEOF (.ewram7)))
+
+.ewram8         0x0000000002001d68        0x0
+ *(.ewram8)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram8, LOADADDR (.ewram8))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram8, (LOADADDR (.ewram8) + SIZEOF (.ewram8)))
+
+.ewram9         0x0000000002001d68        0x0
+ *(.ewram9)
+                0x0000000002001d68                . = ALIGN (0x4)
+                0x0000000002001d68                PROVIDE (__load_start_ewram9, LOADADDR (.ewram9))
+                0x0000000002001d68                PROVIDE (__load_stop_ewram9, (LOADADDR (.ewram9) + SIZEOF (.ewram9)))
+                0x0000000002001d68                __ewram_overlay_end = ABSOLUTE (.)
+                0x0000000002001d68                __eheap_start = __ewram_overlay_end
+                0x0000000002001d68                _end = __ewram_overlay_end
+                0x0000000002001d68                __end__ = __ewram_overlay_end
+                0x0000000002001d68                __rom_end__ = __ewram_overlay_end
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x68
+ *(.comment)
+ .comment       0x0000000000000000       0x22 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+                                         0x23 (size before relaxing)
+ .comment       0x0000000000000000       0x23 key.o
+ .comment       0x0000000000000000       0x23 main.o
+ .comment       0x0000000000000000       0x23 engine.o
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_clear_screen.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_pixel_put.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_new_image.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_image_on_screen.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_init.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_key_hook.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_loop.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_clear.o)
+ .comment       0x0000000000000022       0x23 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .comment       0x0000000000000045       0x23 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mlock.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-freer.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(sbrk.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .comment       0x0000000000000000       0x23 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x18 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .ARM.attributes
+                0x0000000000000018       0x18 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crti.o
+ .ARM.attributes
+                0x0000000000000030       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+ .ARM.attributes
+                0x0000000000000062       0x2e key.o
+ .ARM.attributes
+                0x0000000000000090       0x2e main.o
+ .ARM.attributes
+                0x00000000000000be       0x2e engine.o
+ .ARM.attributes
+                0x00000000000000ec       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_clear_screen.o)
+ .ARM.attributes
+                0x000000000000011a       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_pixel_put.o)
+ .ARM.attributes
+                0x0000000000000148       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_new_image.o)
+ .ARM.attributes
+                0x0000000000000176       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_image_on_screen.o)
+ .ARM.attributes
+                0x00000000000001a4       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_init.o)
+ .ARM.attributes
+                0x00000000000001d2       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_key_hook.o)
+ .ARM.attributes
+                0x0000000000000200       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(gba_loop.o)
+ .ARM.attributes
+                0x000000000000022e       0x2e /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a(img_clear.o)
+ .ARM.attributes
+                0x000000000000025c       0x2e /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .ARM.attributes
+                0x000000000000028a       0x2e /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .ARM.attributes
+                0x00000000000002b8       0x1e /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+ .ARM.attributes
+                0x00000000000002d6       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000308       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x000000000000033a       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x000000000000036c       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000000000000039e       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000000000003d0       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000402       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(sbrk.o)
+ .ARM.attributes
+                0x0000000000000434       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .ARM.attributes
+                0x0000000000000466       0x32 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+ .ARM.attributes
+                0x0000000000000498       0x18 /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 key.o
+ .debug_aranges
+                0x0000000000000020       0x20 main.o
+ .debug_aranges
+                0x0000000000000040       0x20 engine.o
+ .debug_aranges
+                0x0000000000000060       0x20 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .debug_aranges
+                0x0000000000000080       0x20 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+
+.debug_pubnames
+                0x0000000000000000      0x10f
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x0000000000000000       0x65 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .debug_pubnames
+                0x0000000000000065       0xaa /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+
+.debug_info     0x0000000000000000     0x1041
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x34e key.o
+ .debug_info    0x000000000000034e      0x48f main.o
+ .debug_info    0x00000000000007dd      0x244 engine.o
+ .debug_info    0x0000000000000a21      0x200 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .debug_info    0x0000000000000c21      0x38c /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .debug_info    0x0000000000000fad       0x94 /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+
+.debug_abbrev   0x0000000000000000      0x64e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x132 key.o
+ .debug_abbrev  0x0000000000000132      0x125 main.o
+ .debug_abbrev  0x0000000000000257       0xfe engine.o
+ .debug_abbrev  0x0000000000000355      0x107 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .debug_abbrev  0x000000000000045c      0x1de /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .debug_abbrev  0x000000000000063a       0x14 /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+
+.debug_line     0x0000000000000000      0x657
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x133 key.o
+ .debug_line    0x0000000000000133      0x131 main.o
+ .debug_line    0x0000000000000264      0x121 engine.o
+ .debug_line    0x0000000000000385       0xd1 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .debug_line    0x0000000000000456      0x165 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+ .debug_line    0x00000000000005bb       0x9c /home/poirie_l/devkitPro/libgba/lib/libgba.a(InterruptDispatcher.o)
+
+.debug_frame    0x0000000000000000      0x1dc
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x2c key.o
+ .debug_frame   0x000000000000002c       0x2c main.o
+ .debug_frame   0x0000000000000058       0x2c engine.o
+ .debug_frame   0x0000000000000084       0x80 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .debug_frame   0x0000000000000104       0xd8 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+
+.debug_str      0x0000000000000000      0x623
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x1b9 key.o
+                                        0x20c (size before relaxing)
+ .debug_str     0x00000000000001b9      0x195 main.o
+                                        0x2c1 (size before relaxing)
+ .debug_str     0x000000000000034e       0x5d engine.o
+                                        0x173 (size before relaxing)
+ .debug_str     0x00000000000003ab       0xb8 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+                                        0x11d (size before relaxing)
+ .debug_str     0x0000000000000463      0x1c0 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+                                        0x210 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x3a1
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0xaf key.o
+ .debug_loc     0x00000000000000af       0x2c main.o
+ .debug_loc     0x00000000000000db       0xa9 engine.o
+ .debug_loc     0x0000000000000184       0x89 /home/poirie_l/devkitPro/libgba/lib/libgba.a(input.o)
+ .debug_loc     0x000000000000020d      0x194 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x0000000000080000        0x0
+                0x0000000000080000                _stack = .
+ *(.stack)
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crti.o
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtbegin.o
+LOAD key.o
+LOAD main.o
+LOAD engine.o
+LOAD /home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/lib/libmgba.a
+LOAD /home/poirie_l/devkitPro/libgba/lib/libgba.a
+START GROUP
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/libgcc.a
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libg.a
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libc.a
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/../../../../arm-none-eabi/lib/thumb/libsysbase.a
+END GROUP
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtend.o
+LOAD /home/poirie_l/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.7.1/thumb/crtn.o
+OUTPUT(/home/poirie_l/Documents/Epitech/modules/igraph/mgba/template/template_mb.elf elf32-littlearm)
+
+.debug_ranges   0x0000000000000000       0x70
+ .debug_ranges  0x0000000000000000       0x10 main.o
+ .debug_ranges  0x0000000000000010       0x60 /home/poirie_l/devkitPro/libgba/lib/libgba.a(interrupt.o)

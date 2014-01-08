@@ -5,7 +5,7 @@
 ** Login   <poirie_l@epitech.net>
 ** 
 ** Started on  Tue Nov 26 08:27:10 2013 Louis Poirier
-** Last update Thu Dec 26 17:40:20 2013 Louis Poirier
+** Last update Wed Jan  8 17:13:35 2014 Louis Poirier
 */
 
 #ifndef			MGBA_H_
@@ -49,6 +49,7 @@ typedef struct		s_dot3d
   s16			z;
 }			t_dot3d;
 
+u8			img_clear(t_img *img, const u16 color);
 u8			img_pixel_put(t_img *img, const u8 x, const u8 y, const u16 color);
 u8			img_draw_line(t_img *img, t_dot start, t_dot stop, const u16 color);
 
