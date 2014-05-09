@@ -5,7 +5,7 @@
 ## Login   <poirie_l@epitech.net>
 ## 
 ## Started on  Tue Nov 26 09:17:56 2013 Louis Poirier
-## Last update Wed Jan  8 17:13:46 2014 Louis Poirier
+## Last update Fri May  9 20:03:38 2014 Louis Poirier
 ##
 
 include		$(DEVKITARM)/gba_rules
@@ -46,23 +46,28 @@ CFLAGS		= -Wall					\
 
 RM		= rm -f
 
-all:		$(NAME) copy
+all	:	$(NAME) copy
 
-$(NAME):	$(SRCS)
+$(NAME)	:	$(SRCS)
 		$(CC) $(CFLAGS) -c $(SRCS) $(LIBS) $(INCS)
 		ar rc $(NAME).a $(OBJS)
 		ranlib $(NAME).a
 
-clean:
+tmp	:
 		find ./ -name '*~' -exec rm '{}' \;
 		find ./ -name '*#' -exec rm '{}' \;
 
-fclean:		clean
-		find ./ -name '*.o' -exec rm '{}' \;
+clean	:	tmp
+		$(RM) $(OBJS)
+
+fclean	:	clean
 		$(RM) $(NAME).a
 
-re:		fclean all
+re	:	fclean all
 
-copy:
+dbg	:	CFLAGS += -g
+dbg	:	re
+
+copy	:
 		cp $(NAME).a ../.
 		cp mgba.h ../.
